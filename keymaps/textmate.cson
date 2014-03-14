@@ -1,0 +1,28 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the root workspace element.
+
+# For more detailed documentation see
+# https://atom.io/docs/latest/advanced/keymaps
+# '.workspace':
+#   'ctrl-alt-o': 'textmate:toggle'
+
+
+'body.platform-darwin':
+  'ctrl-alt-cmd-d': 'tree-view:toggle'
+  'alt-cmd-tab': 'tree-view:toggle-focus'
+  'ctrl-cmd-r': 'tree-view:reveal-active-file'
+  'ctrl-cmd-t': 'command-palette:toggle'
+
+'body.platform-darwin .editor':
+  'ctrl-D': 'editor:duplicate-line'
+  'cmd-L': 'editor:select-line'
+
+'body.platform-darwin .workspace':
+  'cmd-shift-o': 'textmate:open-favs'
+
+'body.platform-darwin .tree-view':
+  'cmd-down': 'tree-view:open-selected-entry'

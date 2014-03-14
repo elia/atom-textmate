@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+# 'context-menu':
+#   '.overlayer':
+#       'Enable textmate': 'textmate:toggle'
+
+# 'menu': [
+#   {
+#     'label': 'File'
+#     'submenu': [
+#       'label': 'Open Favorites…', 'command': 'textmate:open-favs'
+#     ]
+#   }
+# ]
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      {
+        'label': 'TextMate'
+        'submenu': [
+          {
+            'label': 'Open Favorites…'
+            'command': 'textmate:open-favs'
+          }
+        ]
+      }
+    ]
+  }
+]
