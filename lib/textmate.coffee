@@ -1,13 +1,7 @@
-TextmateView = require './textmate-view'
+# "activationEvents": ["textmate:open-favs"],
 
-module.exports =
-  textmateView: null
+# TextmateView = require './textmate-view'
+require 'opal'
+OpalNode.require __dirname + '/textmate.rb'
 
-  activate: (state) ->
-    @textmateView = new TextmateView(state.textmateViewState)
-
-  deactivate: ->
-    @textmateView.destroy()
-
-  serialize: ->
-    textmateViewState: @textmateView.serialize()
+module.exports = Opal.TextMate.$new()

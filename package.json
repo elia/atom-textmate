@@ -4,13 +4,13 @@
   "version": "0.0.1",
   "private": false,
   "description": "Makes your life hard by keeping Atom undistinguishable from TextMate.",
-  "activationEvents": ["textmate:open-favs"],
+
   "repository": "https://github.com/atom/textmate",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "opal": "0.6.0"
+    "opal": "0.6.3"
   }
 }

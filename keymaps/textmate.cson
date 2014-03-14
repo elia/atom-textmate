@@ -22,7 +22,7 @@
   'cmd-L': 'editor:select-line'
 
 'body.platform-darwin .workspace':
-  'cmd-shift-o': 'textmate:open-favs'
+  'cmd-O': 'textmate:open-favs'
 
 'body.platform-darwin .tree-view':
   'cmd-down': 'tree-view:open-selected-entry'
