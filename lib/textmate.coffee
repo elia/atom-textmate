@@ -1,7 +1,6 @@
-# "activationEvents": ["textmate:open-favs"],
-
-# TextmateView = require './textmate-view'
 require 'opal'
-OpalNode.require __dirname + '/textmate.rb'
+
+OpalNode.load_path.push __dirname
+OpalNode.require 'textmate.rb'
 
 module.exports = Opal.TextMate.$new()
