@@ -2,6 +2,13 @@
 
 Makes your life hard by keeping Atom undistinguishable from TextMate.
 
+## Installing
+
+    git clone https://github.com/elia/atom-textmate ~/.atom/packages/atom-textmate
+    cd ~/.atom/packages/atom-textmate && apm install
+
+Then reload Atom with <kbd>⌃⌥⌘L</kbd> (or via the menu clicking `View` → `Reload`)
+
 
 ## Fixing key-equivalents
 
