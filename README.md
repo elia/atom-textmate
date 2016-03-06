@@ -1,3 +1,7 @@
+# ⚠️ UNMAINTAINED ⚠️ 
+## 😔 This is probably no even working anymore, and anyway was never completed, I just went back to my beloved [TextMate2](/textmate/textmate) 😻
+
+
 # TextMate package
 
 Makes your life hard by keeping Atom undistinguishable from TextMate.
